@@ -30,16 +30,23 @@
 
     body{
       font-family: Montserrat;
-      background-image: url(rain.mov);
-      background-attachment: fixed;
+    
     }
 
-    #title{
 
-z-index: 1;
-position: fixed;
-width: 100%;
-    }
+
+ header{
+    width: 100%;
+    position: fixed;
+  
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 0s ease-out;
+    z-index: 1;
+}
+
+
  
 
     h3{
@@ -69,8 +76,17 @@ width: 100%;
 
 
     }
+
+    .nav-link:hover{
+
+    color: rgb(147, 27, 177);
+    
+   
+    }
+
+
     .logo{
-      width:9%;
+      width:30%;
       border-radius:100%;
     }
     .nav-link{
@@ -78,116 +94,68 @@ width: 100%;
       font-family: Montserrat;
       padding:2% 0%;
       font-weight: 500;
+      color: #fff;
+
     }
 
 
 
 
 
-    .download-button{
-      margin: 5% 3% 5% 3%;
-    }
 
 
-    .main-banner .wrapper {
-    position: relative;
-    padding-top: 200px;
-    padding-bottom: 245px;
+
+
+
+
+
+
+
+/*Apply styles after scroll*/
+.scrolling-active{
+    background-color: rgb(32, 6, 32);
+    box-shadow: 0 1px 10rem rgb(254, 254, 255);
 }
 
-
-    .main-banner {
-  background-size: cover;
-  position: relative;
-  margin: 0;
+.scrolling-active .navbar{
   padding-top: 1.5%;
-  /* padding-top: 100px; */
+  padding-bottom: 1%;
+    height: 3rem;
+    color: #110101;
+  
 }
 
-.main-banner h1 {
-  margin: 0;
-  font-weight: bold;
-  font-size: 200%;
-  line-height: 1;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: right;
-  color: #ffffff;
-  margin-right: 50%;
-}
-
-.main-banner h1 em {
-  font-size: 150%;
-  line-height: 1;
-  font-weight: 200;
-  text-transform: lowercase;
-}
-
-.main-banner h1 em:last-child {
-  margin-top: -15px;
-  display: block;
-}
-
-.main-banner .wrapper {
-  position: relative;
-  padding-top: 25%;
-  padding-bottom: 10%;
-}
-
-.main-banner .descr {
-  max-width: 25%;
-  line-height: 120%;
-  color: #ffffff;
-  position: absolute;
-  left: 2%;
-  bottom: 15%;
-}
-
-
-.main-banner .women {
-  position: absolute;
-  right: 1%;
-  width: 50%;
-  top : 25%;
-
-}
-
-
-.main-banner .vector-bot {
-  position: absolute;
-  left: -140px;
-  bottom: 1px;
-  width: 45%;
+.scrolling-active .nav a{
+    color: #110101;
+  
 }
 
 
 
-.main-banner .bot-btn {
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+
+.scrolling-active .nav-link:hover{
+  color: rgb(147, 27, 177);
+}
+
+.scrolling-active .new5{
+  visibility: hidden;
+}
+
+.scrolling-active .logo{
+  width: 25%;
+ 
 }
 
 
-.text-section p {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 54%;
-  line-height: 150%;
-  text-align: center;
-}
 
 
 
 hr.new5 {
-  border-top: 1px dotted rgb(134, 62, 119);
-  
-  
+  border-top: 1px dotted rgb(224, 199, 219);
+
   inline-size: 70%;
+
+
   
 }
 
@@ -195,98 +163,221 @@ hr.new5 {
 
 
 
-    /* #testimonials{
-    background-color: rgb(133, 86, 86);
-padding: 0.5rem;
-text-align: center;
-    color: #fff;
-    z-index: 0;
-    position:inherit;
-
-    }
-    .testimonial-image{
-       width: 75%;
-
-       margin: 3px;
-    } */
-
-#details{
-/*     
-background-color:rgb(42, 20, 51); */
-/* margin-top: 2%;
-margin-bottom: 2%;
-margin-left: 150px;
-margin-right: 90px; */
-align-items: center;
-
-}
+  
 
 
 #myVideo {
-  position: absolute;
+  position:absolute;
   right: 0;
   bottom: 10;
   min-width: 100%; 
   min-height: 100%;
+  
 }
 
-.det1 img{
+.banner-text{
+position:absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+color: #fff;
 
-  padding:3%;
-  width: 90%;
-  border-radius: 4%;
+
 }
 
-.det1 button{
-align-content: center;
-}
-    #footer{
-  /* background-color:rgb(42, 20, 51); */
-  color:  white;
-  padding:2% 0% 2% 0%;
+.banner-text h2{
   text-align: center;
-    font-size: 1.2rem;
-}
-
-.social-icon{
-
-  margin: 5px 5px;
-}
-
-#welcome{
-  color: White;
-  /* background-color:  rgb(42, 20, 51); */
-  padding-bottom: 2rem;
+  font-size: 4vw;
+  padding-top: 10%;
+  margin: 0;
+  color: rgb(141, 30, 163);
+text-transform: uppercase;
 
 }
-#welcome h1{
 
-  padding-top: 2rem;
+
+.box{
+  font-size: 2vw;
+font-weight: bold;
+opacity: 0;
+padding-top: 5%;
+position: absolute;
+width: 100%;
+text-align: center;
+
 
 }
-#welcome p{
-  padding-left: 10rem;
-  padding-right: 10rem;
 
-  font-size: 1.2rem;
-  font-style: italic;
+.b1{
+animation: ani1 6s infinite;
+}
+.b2{
+animation: ani2 6s infinite;
+}
+.b3{
+animation: ani3 6s infinite;
+}
+.b4{
+animation: ani4 6s infinite;
+}
+.b5{
+animation: ani5 6s infinite;
+}
+
+@keyframes ani1 {
+0%{
+  opacity: 0;
+}
+10%{
+  opacity: 1;
+}
+20%{
+  opacity: 0;
+}
 
 }
+
+@keyframes ani2 {
+20%{
+  opacity: 0;
+}
+30%{
+  opacity: 1;
+}
+40%{
+  opacity: 0;
+}
+
+}
+
+
+@keyframes ani3 {
+40%{
+  opacity: 0;
+}
+50%{
+  opacity: 1;
+}
+60%{
+  opacity: 0;
+}
+
+}
+
+
+@keyframes ani4 {
+60%{
+  opacity: 0;
+}
+70%{
+  opacity: 1;
+}
+80%{
+  opacity: 0;
+}
+
+}
+
+
+@keyframes ani5 {
+80%{
+  opacity: 0;
+}
+90%{
+  opacity: 1;
+}
+100%{
+  opacity: 0;
+}
+
+} 
+
+.aboutus{
+  position: absolute;
+  height:fit-content;
+  background-color: rgb(32, 6, 32);
+  color:white;
+  text-decoration: none; 
+  letter-spacing: 3px;
+   text-align: center;
+ top: 899px;
+ 
+}
+
+
+
+.h2tag1{
+
+  font-size: 3vw;
+text-align: center;
+animation-name: example;
+  position: relative;
+  animation-duration: 4s;
+
+
+
+}
+.aboutrow{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  
+}
+
+.paratag1{
+  
+ text-align: justify;
+  font-size: 1.2vw;
+  animation-name: example;
+  position: relative;
+  animation-duration: 4s;
+}
+
+.paratag2{
+  text-align: justify;
+  font-size: 1.2vw;
+  animation-name: example2;
+  position: relative;
+  animation-duration: 4s;
+}
+
+.h2tag2{
+  font-size: 2vw;
+text-align: center;
+animation-name: example2;
+  position: relative;
+  animation-duration: 4s;
+
+}
+
+@keyframes example {
+ 
+  0%  {right:200px; top:0px;}
+  25%   {right:0px; top:0px;}
+}
+@keyframes example2 {
+ 
+ 0%  {left:200px; top:0px;}
+ 25%   {left:0px; top:0px;}
+}
+.col1{
+  padding-top: 5%;
+  
+}
+
+
   </style>
 
-
-
-
-  
-
-  <section id="title">
+<header> <section id="title">
 
     <!-- Nav Bar -->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark bg">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 
 
-          <a class="navbar-brand" ><img src="logo.png" alt="" style="width:30%; border-radius: 90%; "></a>
+          <a class="navbar-brand" ><img src="logo.png" alt=""  class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -324,36 +415,136 @@ align-content: center;
             </li>
           </ul>
         </div>
-      </nav>
-      <hr class="new5">
+      </nav> 
+    
+    </div>
+    
 
 
-     
+       <hr class="new5">
 </section>
+</header>
+
+
+  
+
+ 
+<!-- 
+<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <a href="/paper3" target="">
+<img class="testimonial-image" src="sl1.jpg" alt=""></a>
+    </div>
+
+      <div class="carousel-item">
+          <a href="/paper2" target="">
+        <img class="testimonial-image"src="sl2.png" alt=""></a>
+      </div>
+
+      <div class="carousel-item">
+          <a href="/paper1" target="">
+        <img class="testimonial-image" src="sl3.png" alt=""></a>
+      </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
 
-  <section class="main-banner" style="background-color: rgb(42, 20, 51)">
+
+  </section>
+ --> 
+
+
+
+
+  <section class="main-banner">
+
 <video autoplay muted loop id="myVideo">
-  <source src="rain.mov" type="video/mp4">
+  <source src="rain.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
-    
-    <div class="full-wrap">
 
-        <!-- <img class="women" src="robs.png" alt=""> -->
-    
-        <div class="wrapper">
-            <!-- <h1 style="font-size:2vw;">Designing <br><em>Different </em> <br>Designing You</h1> -->
-          </div>
-            <div class="descr" style="text-align: center; font-size:1.5vw;" >
-            
-<!-- At Mulberry Media, it's majorly about one thing: working with our clients to develop the best possible designs. With a culture of collaboration, and a highly creative, talented team, We are interested in what's next to provide our clients with. -->
+
+      <div class="banner">
+     <div class="banner-text">   
+    <h2>Mulberry Media</h2>
+    <div class="text-wrapper">
+  <div class="box b1">WEBSITE CONTENT</div>
+  <div class="box b2">SOCIAL MEDIA CONTENT</div>
+  <div class="box b3">BRANDING AND STATIONERY</div>
+  <div class="box b4">ORGANIC MARKETING</div>
+  <div class="box b5">LINKEDIN MARKETING</div>
     </div>
-  </div>
+    
+
+     </div>
+
+
+            
+      </div>    
+
+
+
+
+
+
+  
 </section>
 
+<section id="about">
 
+
+
+  
+<div class="container-fluid aboutus">
+
+    <div class="row aboutrow">
+      <div class="col-sm-3 bg col1">
+        <h2 class="h2tag1">About us</h2>
+      </div>
+      <div class="col-sm-9 bg col2">
+        <p class="paratag1">Mulberry Media is the best graphic designing company. If you are looking for high-quality work with a team of highly creative, innovative & tech-savvy people you’ve come to the right place. We have a customer-centric approach and provide our services efficiently and professionally. We provide premium quality services. It is the one-stop solution for all your design-related requirements. We provide different services under one roof!</p>
+      </div>
+      
+   </div>
+   <hr class="new5">
+   <div class="row aboutrow">
+    <div class="col-sm-3 bg col1">
+      <h2 class="h2tag2">WHAT DO WE DO?</h2>
+    </div>
+    <div class="col-sm-9 bg col2">
+<p class="paratag2">
+  •	Create visually appealing content that will help the business to get more conversions. <br>
+  •	 With our knowledgeable and professional team of designers, we will help you land your business on the top. Taking into consideration the business vision we will help you to stand out from the competition. <br>
+  • We help in proving a brand a unique look and to be able to get easily recognized. <br>
+
+</p>
+    </div>
+    
+  </div>
+  
+  <hr class="new5">
+
+ </div>
+
+<script>
+  window.addEventListener('scroll', function () {
+      let header = document.querySelector('header');
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle('scrolling-active', windowPosition);
+  })
+</script>
 
 </body>
 
