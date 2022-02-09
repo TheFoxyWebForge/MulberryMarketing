@@ -8,7 +8,7 @@
 
 
 
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--css style sheets-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -160,9 +160,9 @@ hr.new5 {
 }
 
 .n2{
-  border-top: 6px dotted rgb(224, 199, 219);
-opacity: 0.5;
-  inline-size: 2%; 
+  border-top: 9px dotted rgb(224, 199, 219);
+opacity: 0.2;
+  inline-size: 40px; 
   position: relative;
   animation-duration: 4s;
   animation-name: example;
@@ -197,7 +197,7 @@ color: #fff;
   font-size: 4vw;
   padding-top: 7%;
   margin: 0;
-  color: rgb(141, 30, 163);
+  color: rgb(43, 4, 51);
 text-transform: uppercase;
 
 }
@@ -214,6 +214,8 @@ text-align: center;
 
 
 }
+
+
 
 .b1{
 animation: ani1 6s infinite;
@@ -307,7 +309,7 @@ animation: ani5 6s infinite;
   text-decoration: none; 
   letter-spacing: 3px;
    text-align: center;
- top: 899px;
+ top: 650px;
  
 }
 
@@ -315,7 +317,6 @@ animation: ani5 6s infinite;
 
 .h2tag1{
 
-  font-size: 3vw;
 text-align: center;
 animation-name: example;
   position: relative;
@@ -334,8 +335,8 @@ animation-name: example;
 .aboutrow1{
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 4%;
-  margin-bottom: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   
 }
 
@@ -348,7 +349,7 @@ animation-name: example;
 .paratag1{
   
  text-align: justify;
-  font-size: 1.2vw;
+padding-right: 2%;
   animation-name: example;
   position: relative;
   animation-duration: 4s;
@@ -356,14 +357,23 @@ animation-name: example;
 
 .paratag2{
   text-align: justify;
-  font-size: 1.2vw;
+padding-right: 2%;
   animation-name: example2;
   position: relative;
   animation-duration: 4s;
 }
+.htag3{
+  text-align: center;
+  font-size: 110%;
+  
+}
 
+.ptag3{
+  text-align: justify;
+  padding-right: 2%;
+}
 .h2tag2{
-  font-size: 2vw;
+  
 text-align: center;
 animation-name: example2;
   position: relative;
@@ -384,6 +394,10 @@ animation-name: example2;
 .col1{
   padding-top: 5%;
   
+}
+.col3{
+  text-align: center;
+
 }
 
 
@@ -489,7 +503,7 @@ animation-name: example2;
 
   <section class="main-banner">
 
-<video autoplay muted loop id="myVideo">
+<video autoplay muted loop id="myVideo" style="overflow: hidden ;display: block; width: 100vw; height: 100vh; object-fit: cover;">
   <source src="rain.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
@@ -497,7 +511,7 @@ animation-name: example2;
 
       <div class="banner">
      <div class="banner-text">   
-    <h2>Mulberry Media</h2>
+    <h2 data-aos="fade-up">Mulberry Media</h2>
     <div class="text-wrapper">
   <div class="box b1">WEBSITE CONTENT</div>
   <div class="box b2">SOCIAL MEDIA CONTENT</div>
@@ -528,22 +542,22 @@ animation-name: example2;
   
 <div class="container-fluid aboutus">
 
-    <div class="row aboutrow">
-      <div class="col-sm-3 bg col1">
+    <div class="row aboutrow" data-aos="fade-right">
+      <div class="col-md-3 sm col1">
         <h2 class="h2tag1">About us</h2>
       </div>
-      <div class="col-sm-9 bg col2">
+      <div class="col-md-9 sm col2">
         <p class="paratag1">Mulberry Media is the best graphic designing company. If you are looking for high-quality work with a team of highly creative, innovative & tech-savvy people you’ve come to the right place. We have a customer-centric approach and provide our services efficiently and professionally. We provide premium quality services. It is the one-stop solution for all your design-related requirements. We provide different services under one roof!</p>
       </div>
       
    </div>
 
-   <hr class="new5">
-   <div class="row aboutrow">
-    <div class="col-sm-3 bg col1">
-      <h2 class="h2tag2">WHAT DO WE DO?</h2>
+   <hr class="new5" data-aos="fade-up">
+   <div class="row aboutrow" data-aos="fade-left">
+    <div class="col-md-3 bg col1">
+      <h2 class="h2tag2">What do we do?</h2>
     </div>
-    <div class="col-sm-9 bg col2">
+    <div class="col-md-9 bg col2">
 <p class="paratag2">
   •	Create visually appealing content that will help the business to get more conversions. <br>
   •	 With our knowledgeable and professional team of designers, we will help you land your business on the top. Taking into consideration the business vision we will help you to stand out from the competition. <br>
@@ -554,60 +568,66 @@ animation-name: example2;
     
   </div>
   
-  <hr class="new5">
+  <hr class="new5" data-aos="fade-up">
 <br>
 <br>
- <center> <h1 class="animate">HOW DO WE DO IT?</h1></center>
+ <center> <h2 class="animate" data-aos="fade-down">HOW DO WE DO IT?</h2></center>
  
    <br>
-   <div class="row aboutrow1">
+   <div class="row aboutrow1" data-aos="fade-right">
   
-    <div class="col-sm-3 bg ">
-     <h3 class="animate">PLANNING: </h3>
+    <div class="col-md-3 bg col3" style="padding-top: 0.9%;">
+     <h4 class="animate htag3">PLANNING </h4>
     </div>
-    <div class="col-sm-9 bg ">
-      <p class="animate">The first and foremost thing to do is to plan. We take into consideration the client’s advice and plan the designs according to their needs.</p>
+    <div class="col-md-9 bg col4">
+      <p class="animate ptag3" style=" text-align:justify;">The first and foremost thing to do is to plan. We take into consideration the client’s advice and plan the designs according to their needs.</p>
     </div>
     
  </div>
- <hr class="n2">
+ <hr class="n2" data-aos="fade-up">
+ <br>
  
- <div class="row aboutrow1">
+ <div class="row aboutrow1" data-aos="fade-left">
   
-  <div class="col-sm-3 bg">
-   <h3 class="animate">DESIGNING:  </h3>
+  <div class="col-md-3 bg col3" style="padding-top: 3%;">
+   <h4 class="animate htag3">DESIGNING</h4>
   </div>
-  <div class="col-sm-9 bg">
-    <p class="animate">After our team gets the brief from the clients then the creative juices flow by our talented designers. Designs are made by keeping in mind the tone of the brand. The vision and objectives of a brand are taken into consideration while designing.</p>
+  <div class="col-md-9 bg col4">
+    <p class="animate ptag3" style=" text-align:justify;">After our team gets the brief from the clients then the creative juices flow by our talented designers. Designs are made by keeping in mind the tone of the brand. The vision and objectives of a brand are taken into consideration while designing.</p>
   </div>
   
 </div>
-<hr class="n2">
-<div class="row aboutrow1">
+<hr class="n2" data-aos="fade-up">
+<br>
+<div class="row aboutrow1" data-aos="fade-right">
   
-  <div class="col-sm-3 bg ">
-   <h3 class="animate">CONTENT:  </h3>
+  <div class="col-md-3 bg col3" style="padding-top: 2%;" >
+   <h4 class="animate htag3">CONTENT</h4>
   </div>
-  <div class="col-sm-9 bg ">
-    <p class="animate">
+  <div class="col-md-9 bg col4">
+    <p class="animate ptag3">
       The creative team writes the content to help the client’s business get more conversions. Writing innovative and creative content is necessary for any brand to get people intrigued and take action. 
 
     </p>
   </div>
   
 </div>
-<hr class="n2">
-<div class="row aboutrow1">
+<hr class="n2" data-aos="fade-up">
+<br>
+<div class="row aboutrow1" data-aos="fade-left">
   
-  <div class="col-sm-3 bg ">
-   <h3 class="animate">PROMOTING & ANALYSING:  </h3>
+  <div class="col-md-3 bg col3"  style="padding-top: 0.5%;">
+   <h4 class="animate htag3">PROMOTING & ANALYSING  </h4>
   </div>
-  <div class="col-sm-9 bg">
-    <p class="animate">With the help of organic marketing the promotion is done and the designing, content, and promotion are taken into consideration to track the results. </p>
+  <div class="col-md-9 bg col4">
+    <p class="animate ptag3">With the help of organic marketing the promotion is done and the designing, content, and promotion are taken into consideration to track the results. </p>
   </div>
   
 </div>
-   <hr class="new5">
+   <hr class="new5" data-aos="fade-up">
+
+
+   
 
 <!-- 
   <div class="row aboutrow">
@@ -627,7 +647,13 @@ animation-name: example2;
   
   <hr class="new5"> -->
  </div>
-
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init({
+    offset: 80,
+    duration: 500
+  });
+</script>
 <script>
   window.addEventListener('scroll', function () {
       let header = document.querySelector('header');
