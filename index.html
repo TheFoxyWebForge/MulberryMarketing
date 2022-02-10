@@ -30,6 +30,8 @@
 
     body{
       font-family: Montserrat;
+      background-color:  rgb(32, 6, 32);
+
     
     }
 
@@ -43,7 +45,8 @@
     -moz-transition: background-color 2s ease-out;
     -o-transition: background-color 2s ease-out;
     transition: background-color 0s ease-out;
-    z-index: 1;
+    z-index: 1000;
+    height: fit-content;
 }
 
 
@@ -56,6 +59,7 @@
 
     .container-fluid{
       padding: -8% 2% -4%;
+  
 
     }
     .navbar{
@@ -86,8 +90,8 @@
 
 
     .logo{
-      width:30%;
-      border-radius:100%;
+      width:45%;
+      
     }
     .nav-link{
       font-size: 1.3rem;
@@ -107,20 +111,17 @@
 
 
 
-
-
-
-
 /*Apply styles after scroll*/
 .scrolling-active{
     background-color: rgb(32, 6, 32);
     box-shadow: 0 1px 10rem rgb(254, 254, 255);
+   
 }
 
 .scrolling-active .navbar{
-  padding-top: 1.5%;
+  padding-top: 1%;
   padding-bottom: 1%;
-    height: 3rem;
+    height: 5rem;
     color: #110101;
   
 }
@@ -129,12 +130,16 @@
     color: #110101;
   
 }
-
-
+.scrolling-active .navbar-collapse{
+  background-color:  rgb(32, 6, 32);
+  padding-left: 15%;
+  border-radius: 5%;
+}
 
 
 .scrolling-active .nav-link:hover{
-  color: rgb(147, 27, 177);
+  color: rgb(205, 127, 224);
+
 }
 
 .scrolling-active .new5{
@@ -142,7 +147,9 @@
 }
 
 .scrolling-active .logo{
-  width: 25%;
+  width: 35%;
+  
+
  
 }
 
@@ -151,8 +158,8 @@
 
 
 hr.new5 {
-  border-top: 1px dotted rgb(224, 199, 219);
-
+  border-top: 1.5px dotted  rgb(219, 171, 228);
+  opacity: 0.5;
   inline-size: 70%;
 
 
@@ -160,12 +167,11 @@ hr.new5 {
 }
 
 .n2{
-  border-top: 9px dotted rgb(224, 199, 219);
-opacity: 0.2;
+  border-top: 9px dotted rgba(212, 208, 210, 0.308);
+opacity: 0.5;
   inline-size: 40px; 
-  position: relative;
-  animation-duration: 4s;
-  animation-name: example;
+
+  
 }
 
 
@@ -197,7 +203,7 @@ color: #fff;
   font-size: 4vw;
   padding-top: 7%;
   margin: 0;
-  color: rgb(43, 4, 51);
+  color:   rgb(175, 141, 182);
 text-transform: uppercase;
 
 }
@@ -318,9 +324,7 @@ animation: ani5 6s infinite;
 .h2tag1{
 
 text-align: center;
-animation-name: example;
-  position: relative;
-  animation-duration: 4s;
+
 
 
 
@@ -340,27 +344,19 @@ animation-name: example;
   
 }
 
-.animate{
-  animation-name: example;
-  position: relative;
-  animation-duration: 4s;
-}
+
 
 .paratag1{
   
  text-align: justify;
 padding-right: 2%;
-  animation-name: example;
-  position: relative;
-  animation-duration: 4s;
+ 
 }
 
 .paratag2{
   text-align: justify;
 padding-right: 2%;
-  animation-name: example2;
-  position: relative;
-  animation-duration: 4s;
+  
 }
 .htag3{
   text-align: center;
@@ -375,22 +371,11 @@ padding-right: 2%;
 .h2tag2{
   
 text-align: center;
-animation-name: example2;
-  position: relative;
-  animation-duration: 4s;
+
 
 }
 
-@keyframes example {
- 
-  0%  {right:200px; top:0px;}
-  25%   {right:0px; top:0px;}
-}
-@keyframes example2 {
- 
- 0%  {left:200px; top:0px;}
- 25%   {left:0px; top:0px;}
-}
+
 .col1{
   padding-top: 5%;
   
@@ -398,6 +383,25 @@ animation-name: example2;
 .col3{
   text-align: center;
 
+}
+
+.h2alone{
+  justify-items: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-shadow: 0 1px 5rem rgb(254, 254, 255);
+
+}
+#footer{
+ 
+  color: #EAF6F6;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
 }
 
 
@@ -410,7 +414,7 @@ animation-name: example2;
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 
 
-          <a class="navbar-brand" ><img src="logo.png" alt=""  class="logo"></a>
+          <a class="navbar-brand" ><img src="logo1.png" alt=""  class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -452,9 +456,6 @@ animation-name: example2;
     
     </div>
     
-
-
-       <hr class="new5">
 </section>
 </header>
 
@@ -503,7 +504,7 @@ animation-name: example2;
 
   <section class="main-banner">
 
-<video autoplay muted loop poster="imgposter.png"  id="myVideo" style="overflow: hidden ;display: block; width: 100vw; height: 100vh; object-fit: cover;">
+<video autoplay muted loop playsinline preload id="myVideo" style="overflow: hidden ;display: block; width: 100vw; height: 100vh; object-fit: cover;">
   <source src="rain.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
@@ -511,7 +512,7 @@ animation-name: example2;
 
       <div class="banner">
      <div class="banner-text">   
-    <h2 data-aos="fade-up">Mulberry Media</h2>
+    <h2>Mulberry Media</h2>
     <div class="text-wrapper">
   <div class="box b1">WEBSITE CONTENT</div>
   <div class="box b2">SOCIAL MEDIA CONTENT</div>
@@ -544,7 +545,7 @@ animation-name: example2;
 
     <div class="row aboutrow" data-aos="fade-right">
       <div class="col-md-3 sm col1">
-        <h2 class="h2tag1">About us</h2>
+        <h2 class="h2tag1"  style="color: rgb(219, 171, 228); ">About us</h2>
       </div>
       <div class="col-md-9 sm col2">
         <p class="paratag1">Mulberry Media is the best graphic designing company. If you are looking for high-quality work with a team of highly creative, innovative & tech-savvy people you’ve come to the right place. We have a customer-centric approach and provide our services efficiently and professionally. We provide premium quality services. It is the one-stop solution for all your design-related requirements. We provide different services under one roof!</p>
@@ -555,7 +556,7 @@ animation-name: example2;
    <hr class="new5" data-aos="fade-up">
    <div class="row aboutrow" data-aos="fade-left">
     <div class="col-md-3 bg col1">
-      <h2 class="h2tag2">What do we do?</h2>
+      <h2 class="h2tag2" style="color: rgb(219, 171, 228); ">What do we do?</h2>
     </div>
     <div class="col-md-9 bg col2">
 <p class="paratag2">
@@ -571,13 +572,13 @@ animation-name: example2;
   <hr class="new5" data-aos="fade-up">
 <br>
 <br>
- <center> <h2 class="animate" data-aos="fade-down">HOW DO WE DO IT?</h2></center>
+ <center> <h2 class="animate" data-aos="fade-up"  style="color: rgb(219, 171, 228); ">HOW DO WE DO IT?</h2></center>
  
    <br>
    <div class="row aboutrow1" data-aos="fade-right">
   
     <div class="col-md-3 bg col3" style="padding-top: 0.9%;">
-     <h4 class="animate htag3">PLANNING </h4>
+     <h4 class="animate htag3"  style="color: rgb(219, 171, 228); ">PLANNING </h4>
     </div>
     <div class="col-md-9 bg col4">
       <p class="animate ptag3" style=" text-align:justify;">The first and foremost thing to do is to plan. We take into consideration the client’s advice and plan the designs according to their needs.</p>
@@ -590,7 +591,7 @@ animation-name: example2;
  <div class="row aboutrow1" data-aos="fade-left">
   
   <div class="col-md-3 bg col3" style="padding-top: 3%;">
-   <h4 class="animate htag3">DESIGNING</h4>
+   <h4 class="animate htag3 "  style="color: rgb(219, 171, 228); ">DESIGNING</h4>
   </div>
   <div class="col-md-9 bg col4">
     <p class="animate ptag3" style=" text-align:justify;">After our team gets the brief from the clients then the creative juices flow by our talented designers. Designs are made by keeping in mind the tone of the brand. The vision and objectives of a brand are taken into consideration while designing.</p>
@@ -602,7 +603,7 @@ animation-name: example2;
 <div class="row aboutrow1" data-aos="fade-right">
   
   <div class="col-md-3 bg col3" style="padding-top: 2%;" >
-   <h4 class="animate htag3">CONTENT</h4>
+   <h4 class="animate htag3"  style="color: rgb(219, 171, 228); ">CONTENT</h4>
   </div>
   <div class="col-md-9 bg col4">
     <p class="animate ptag3">
@@ -617,35 +618,68 @@ animation-name: example2;
 <div class="row aboutrow1" data-aos="fade-left">
   
   <div class="col-md-3 bg col3"  style="padding-top: 0.5%;">
-   <h4 class="animate htag3">PROMOTING & ANALYSING  </h4>
+   <h4 class="animate htag3"  style="color: rgb(219, 171, 228); ">PROMOTING & ANALYSING  </h4>
   </div>
   <div class="col-md-9 bg col4">
     <p class="animate ptag3">With the help of organic marketing the promotion is done and the designing, content, and promotion are taken into consideration to track the results. </p>
   </div>
   
-</div>
+</div><br><br>
    <hr class="new5" data-aos="fade-up">
 
-
-   
-
-<!-- 
-  <div class="row aboutrow">
-    <div class="col-sm-3 bg col1">
-      <h2 class="h2tag2">WHAT DO WE DO?</h2>
+   <div class="row aboutrow" data-aos="fade-left">
+    <div class="col-md-3 bg " style="padding-top: 2.1%; justify-items: center;">
+      <h2  style="color: rgb(219, 171, 228); ">Our Vision</h2>
     </div>
-    <div class="col-sm-9 bg col2">
+    <div class="col-md-9 bg col2">
 <p class="paratag2">
-  •	Create visually appealing content that will help the business to get more conversions. <br>
-  •	 With our knowledgeable and professional team of designers, we will help you land your business on the top. Taking into consideration the business vision we will help you to stand out from the competition. <br>
-  • We help in proving a brand a unique look and to be able to get easily recognized. <br>
-
+  Our vision is to provide every client with the strategy, creativity, and innovation it needs that would help the business as well as the client’s success. We believe in being honest, fair and delivering excellent results in everything we do.
 </p>
     </div>
     
   </div>
+  <hr class="new5" data-aos="fade-up">
+
+
+  <div class="row aboutrow" data-aos="fade-right">
+    <div class="col-md-3 sm" style="padding-top: 2.5%; justify-items: center;">
+      <h2 class="" style="justify-items: center; color: rgb(219, 171, 228);">Our Mission</h2>
+    </div>
+    <div class="col-md-9 sm col2">
+      <p class="paratag1">Mulberry Media’s mission is to offer value to clients. By adapting the client’s needs and providing them with all our services suitable for their business. 
+        Our mission is to serve our clients with the best quality work possible. By providing customized services we believe in making every business unique.
+        </p>
+    </div>
+    
+ </div>
+ <hr class="new5" data-aos="fade-left">
+<br>
+<br><br>
+<center><h1 class="h2alone" style="color: rgb(219, 171, 228); " data-aos="fade-right">Take your brand to the next level with Mulberry Media.</h1></center>
+
+<br><br><br>
+
+<hr class="new5"data-aos="fade-left">
+
+
+
   
-  <hr class="new5"> -->
+  <footer id="footer" style="color: rgb(219, 171, 228);" >
+  <center>
+    <h2>Contact Us</h2>
+  </center>
+ 
+  
+<a class="" href="http://www.mulberrymarketing.in"><i class="social-icon fad fa-browser"></i>
+</a>
+<a href="mailto:mediamulberry@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/company/mulberrymarketingsolutions/"><i class="social-icon fab fa-linkedin-in"></i></a>
+  <p>mulberrymarketing. in</p>
+
+</footer>
+
+
+
  </div>
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
  <script>
