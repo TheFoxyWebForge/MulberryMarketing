@@ -21,7 +21,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <link rel="icon" href="favicon.ico">
 
-
+<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
     }
     .navbar{
       padding-left: 15%;
-      padding-right:20%;
+      padding-right:15%;
 
 
     }
@@ -182,14 +182,14 @@ opacity: 0.5;
 #myVideo {
   position:absolute;
   right: 0;
- 
+  bottom: 10;
   height: fit-content;
   
 }
 
 .banner-text{
 position:absolute;
-padding-top: 50vw;
+top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 100%;
@@ -201,11 +201,22 @@ color: #fff;
 .banner-text h2{
   text-align: center;
   font-size: 4vw;
-  
+  padding-top: 7%;
   margin: 0;
-  color:   rgb(175, 141, 182);
+  color:   #21042b;
 text-transform: uppercase;
+animation: glow 1s ease-in-out infinite alternate;
 
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(80, 9, 76), 0 0 20px rgb(125, 10, 136), 0 0 30px #4c0c52, 0 0 40px #4d0b49, 0 0 50px #220433, 0 0 60px #3a0a4d, 0 0 70px #5c0d66;
+  }
+  
+  to {
+    text-shadow: 0 0 20px rgb(68, 1, 77), 0 0 30px #460743, 0 0 40px #3a063b, 0 0 50px #270833, 0 0 60px #47075a, 0 0 70px #210538, 0 0 80px #200331;
+  }
 }
 
 
@@ -414,7 +425,7 @@ text-align: center;
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 
 
-          <a class="navbar-brand" ><img src="logo1.png" alt=""  class="logo"></a>
+          <a class="navbar-brand" ><img src="logo2 (1).png" alt=""  class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -424,7 +435,7 @@ text-align: center;
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
-                <a class="nav-link" href="#title">Home</a>
+                <a class="nav-link" href="/index.html">Home</a>
     
                 </li>
            
@@ -443,7 +454,7 @@ text-align: center;
            
 
             <li class="nav-item">
-            <a class="nav-link" href="#welcome">About us</a>
+            <a class="nav-link" href="/about.html">About us</a>
 
             </li>
             <li class="nav-item">
@@ -511,15 +522,14 @@ text-align: center;
 
 
       <div class="banner">
-     <div class="banner-text">
-       <center>  <h2>Mulberry Media</h2></center>   
-  
+     <div class="banner-text">   
+    <h2>Mulberry Studio</h2>
     <div class="text-wrapper">
   <div class="box b1">WEBSITE CONTENT</div>
   <div class="box b2">SOCIAL MEDIA CONTENT</div>
   <div class="box b3">BRANDING AND STATIONERY</div>
   <div class="box b4">ORGANIC MARKETING</div>
-  <div class="box b5">LINKEDIN MARKETING</div>
+  <div class="box b5">RAISING THE BAR</div>
     </div>
     
 
