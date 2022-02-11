@@ -291,7 +291,16 @@ animation: ani5 6s infinite;
  
 }
 
-
+.aboutus4{
+  position: absolute;
+  height:fit-content;
+  background-color: rgb(32, 6, 32);
+  color:white;
+  text-decoration: none; 
+  letter-spacing: 3px;
+   text-align: center;
+ top: 200px;  
+}
 
 .h2tag1{
 
@@ -306,6 +315,13 @@ text-align: center;
   margin-right: 15%;
   margin-top: 8%;
   margin-bottom: 5%;
+  
+}
+.aboutrow1{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 1%;
   
 }
 .aboutrow1{
@@ -396,7 +412,6 @@ padding-bottom: 4%;
 position: relative;
 font-size:8vw;
 color: #a264bb;
-
 
 }
 
