@@ -387,22 +387,22 @@ text-align: center;
 #aboutsection{
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 21%;
-padding-bottom: 8%;
+    padding-top: 15%;
+padding-bottom: 4%;
 
 }
 .h1inanout{
 
 position: relative;
-font-size:9vw;
-color: #13021a;
+font-size:8vw;
+color: #a264bb;
 
 
 }
 
 
 .pinabout{
-  padding-top: 65%;
+ 
 font-size: 2vw;
 text-align: justify;
 color: #fff;
