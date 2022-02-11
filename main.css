@@ -387,19 +387,14 @@ text-align: center;
 #aboutsection{
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 14%;
+    padding-top: 21%;
 padding-bottom: 8%;
-background-image: url(im1.jpg);
-background-repeat:no-repeat ;
-background-position: center;
-background-size: cover;
-opacity: 0.5;
-height: 50vw;
+
 }
 .h1inanout{
 
 position: relative;
-font-size: 400%;
+font-size:9vw;
 color: #13021a;
 
 
@@ -407,7 +402,8 @@ color: #13021a;
 
 
 .pinabout{
-font-size: 150%;
+  padding-top: 65%;
+font-size: 2vw;
 text-align: justify;
 color: #fff;
 }
