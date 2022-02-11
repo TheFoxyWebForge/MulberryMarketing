@@ -291,16 +291,7 @@ animation: ani5 6s infinite;
  
 }
 
-.aboutus4{
-  position: absolute;
-  height:fit-content;
-  background-color: rgb(32, 6, 32);
-  color:white;
-  text-decoration: none; 
-  letter-spacing: 3px;
-   text-align: center;
- top: 200px;  
-}
+
 
 .h2tag1{
 
@@ -394,23 +385,25 @@ text-align: center;
 
 
 
-
-
-
-
-
-
-#aboutsection{
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 15%;
-padding-bottom: 4%;
-
+.aboutus4{
+  position: absolute;
+  height:fit-content;
+  background-color: rgb(32, 6, 32);
+  color:white;
+  text-decoration: none; 
+  letter-spacing: 3px;
+   text-align: center;
+ top: 24%;  
 }
+
+
+
+
+
 .h1inanout{
 
 position: relative;
-font-size:8vw;
+font-size:5.5vw;
 color: #a264bb;
 
 }
@@ -418,7 +411,13 @@ color: #a264bb;
 
 .pinabout{
  
-font-size: 2vw;
+font-size: 1.5vw;
 text-align: justify;
 color: #fff;
+}
+
+.ccta{
+  background-color:  rgb(32, 6, 32);
+  padding-left: 15%;
+  border-radius: 5%;
 }
