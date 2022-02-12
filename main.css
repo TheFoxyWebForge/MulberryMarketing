@@ -2,7 +2,7 @@
 
     body{
       font-family: Montserrat;
-      background-color:  rgb(32, 6, 32);
+      background-color:black;
 
     
     }
@@ -85,8 +85,8 @@
 
 /*Apply styles after scroll*/
 .scrolling-active{
-    background-color: rgb(32, 6, 32);
-    box-shadow: 0 1px 10rem rgb(254, 254, 255);
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 1px 1rem  rgb(172, 86, 221);
    
 }
 
@@ -103,7 +103,7 @@
   
 }
 .scrolling-active .navbar-collapse{
-  background-color:  rgb(32, 6, 32);
+  background-color: black;
   padding-left: 15%;
   border-radius: 5%;
 }
@@ -154,14 +154,14 @@ opacity: 0.5;
 #myVideo {
   position:absolute;
   right: 0;
- 
+ background-position: fixed;
   height: fit-content;
   
 }
 
 .banner-text{
 position:absolute;
-padding-top: 50vw;
+padding-top: 40vw;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 100%;
@@ -170,119 +170,64 @@ color: #fff;
 
 }
 
-.banner-text h2{
-  text-align: center;
-  font-size: 4vw;
-  
-  margin: 0;
-  color:   rgb(175, 141, 182);
-text-transform: uppercase;
 
-}
 
 
 .box{
-  font-size: 2vw;
+  font-size: 4vw;
 font-weight: bold;
 opacity: 0;
-padding-top: 0.5%;
+margin: 0;
+
 position: absolute;
 width: 100%;
 text-align: center;
-
-
+text-transform: uppercase;
+text-shadow: 0 1px 5rem rgb(89, 0, 255);
+color: rgb(240, 231, 247);
 }
 
 
 
 .b1{
-animation: ani1 6s infinite;
+animation: ani1 3s infinite;
 }
 .b2{
-animation: ani2 6s infinite;
+animation: ani2 3s infinite;
 }
-.b3{
-animation: ani3 6s infinite;
-}
-.b4{
-animation: ani4 6s infinite;
-}
-.b5{
-animation: ani5 6s infinite;
-}
+
 
 @keyframes ani1 {
 0%{
   opacity: 0;
 }
-10%{
+25%{
   opacity: 1;
 }
-20%{
+50%{
   opacity: 0;
 }
 
 }
 
 @keyframes ani2 {
-20%{
-  opacity: 0;
-}
-30%{
-  opacity: 1;
-}
-40%{
-  opacity: 0;
-}
-
-}
-
-
-@keyframes ani3 {
-40%{
-  opacity: 0;
-}
 50%{
-  opacity: 1;
-}
-60%{
   opacity: 0;
 }
-
-}
-
-
-@keyframes ani4 {
-60%{
-  opacity: 0;
-}
-70%{
-  opacity: 1;
-}
-80%{
-  opacity: 0;
-}
-
-}
-
-
-@keyframes ani5 {
-80%{
-  opacity: 0;
-}
-90%{
+75%{
   opacity: 1;
 }
 100%{
   opacity: 0;
 }
 
-} 
+}
+
 
 .aboutus{
   position: absolute;
   height:fit-content;
-  background-color: rgb(32, 6, 32);
+  background-color:black;
   color:white;
   text-decoration: none; 
   letter-spacing: 3px;
@@ -369,18 +314,21 @@ text-align: center;
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
-  text-shadow: 0 1px 5rem rgb(254, 254, 255);
+  text-shadow: 0 1px 3rem rgb(78, 6, 100);
+  color: rgb(172, 86, 221);
 
 }
 #footer{
  
-  color: #EAF6F6;
+ 
   padding: 7% 15%;
   text-align: center;
 }
 
 .social-icon{
   margin: 20px 10px;
+  color: #fff;
+
 }
 
 
@@ -388,7 +336,7 @@ text-align: center;
 .aboutus4{
   position: absolute;
   height:fit-content;
-  background-color: rgb(32, 6, 32);
+  background-color:black;
   color:white;
   text-decoration: none; 
   letter-spacing: 3px;
@@ -404,7 +352,7 @@ text-align: center;
 
 position: relative;
 font-size:5.5vw;
-color: #a264bb;
+color: rgb(172, 86, 221);
 
 }
 
@@ -416,8 +364,206 @@ text-align: justify;
 color: #fff;
 }
 
-.ccta{
-  background-color:  rgb(32, 6, 32);
+.scrolling-active .ccta{
+  
   padding-left: 15%;
   border-radius: 5%;
+}
+
+.about12{
+ width: 100%;
+ height: 750px;
+ background-position: center;
+ background-size: cover;
+ background-image: url(bb.jpg);
+
+ background-attachment: fixed;
+
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ padding-left: 15%;
+ padding-right: 15%;
+}
+
+.about12 p{
+ 
+  padding-left: 15%;
+ padding-right: 15%;
+ justify-content: center;
+ text-align: justify;
+ font-size: 120%;
+ color: rgba(221, 207, 220, 0.945);
+}
+
+
+.about12 h1{
+  
+  font-size: 350%;
+  color: rgb(172, 86, 221);
+}
+
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 120px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(ii.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 9%;
+
+
+}
+
+
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content h2{
+font-size: 50px;
+font-weight: 500;
+color: #fff;
+
+}
+
+.contact .content p{
+ 
+  font-weight: 500;
+  color: #fff;
+  
+  }
+
+  .container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .container1 .contactInfo
+  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container1 .contactInfo .box1{
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+  }
+  .container1 .contactInfo .box1 .icon{
+    min-width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    color: rgb(59, 7, 70);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+  }
+
+  .container1 .contactInfo .box1 .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+
+  .container1 .contactInfo .box1 .text h3{
+font-weight: 500;
+color: rgb(69, 7, 97);
+  }
+
+  .contactForm{
+    width: 40%;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 5%;
+  }
+
+  .contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contactForm .inputBox input,
+  .contactForm .inputBox textarea
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+
+  .contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+
+  }
+
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid ~ span,
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid ~ span
+  {
+    color: #e91e63;
+    font-size:12px ;
+    transform: translateY(-20px);
+  }
+.contactForm .inputBox input[type="submit"]{
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+@media(max-width:991px)
+{
+  .contact{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+.container1{
+  flex-direction: column;
+}
+.container1 .contactInfo,
+.contactForm{
+  width: 100%;
+}
+
 }
