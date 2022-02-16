@@ -246,6 +246,7 @@ animation: ani2 3s infinite;
    text-align: center;
  top: 650px;
  
+ 
 }
 
 
@@ -253,7 +254,7 @@ animation: ani2 3s infinite;
 .h2tag1{
 
 text-align: center;
-
+font-size: 40px;
 
 
 
@@ -286,28 +287,32 @@ text-align: center;
   
  text-align: justify;
 padding-right: 2%;
+font-size: 20px;
  
 }
 
 .paratag2{
   text-align: justify;
 padding-right: 2%;
+font-size: 20px;
   
 }
 .htag3{
   text-align: center;
   font-size: 110%;
+  font-size: 25px;
   
 }
 
 .ptag3{
   text-align: justify;
   padding-right: 2%;
+  font-size: 20px;
 }
 .h2tag2{
   
 text-align: center;
-
+font-size: 40px;
 
 }
 
@@ -326,8 +331,9 @@ text-align: center;
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
-  text-shadow: 0 1px 3rem rgb(78, 6, 100);
+  text-shadow: 0 1px 3rem rgb(250, 246, 252);
   color: rgb(172, 86, 221);
+  font-size: 40px;
 
 }
 #footer{
