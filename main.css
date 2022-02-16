@@ -62,7 +62,13 @@
 
 
     .logo{
-      width:40%;
+      width:22%;
+      
+    }
+
+    
+    .logo11{
+      width:35%;
       
     }
     .nav-link{
@@ -119,12 +125,18 @@
 }
 
 .scrolling-active .logo{
-  width: 30%;
+  width: 16%;
   
 
  
 }
 
+.scrolling-active .logo11{
+  width: 25%;
+  
+
+ 
+}
 
 
 
@@ -392,14 +404,14 @@ color: #fff;
  padding-right: 15%;
  justify-content: center;
  text-align: justify;
- font-size: 120%;
+ font-size: 1.8vw;
  color: rgba(221, 207, 220, 0.945);
 }
 
 
 .about12 h1{
   
-  font-size: 350%;
+  font-size: 4.8vw;
   color: rgb(172, 86, 221);
 }
 
