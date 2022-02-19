@@ -250,6 +250,8 @@ font-size: 45px;
 
 
 }
+
+
 .aboutrow{
   margin-left: 15%;
   margin-right: 15%;
@@ -396,14 +398,14 @@ color: #fff;
   
  justify-content: center;
  text-align: justify;
-font-size: 18px;
+font-size: 1.8vw;
  color: rgba(221, 207, 220, 0.945);
 }
 
 
 .about12 h1{
   
-  font-size: 45px;
+  font-size: 5vw;
   color: rgb(172, 86, 221);
 }
 
