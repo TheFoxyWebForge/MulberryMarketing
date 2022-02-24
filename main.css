@@ -86,17 +86,6 @@
         }
     }
 
-    @media (max-width: 440px) {
-   
-        .navbar{
-        height: 3rem;
-
-        }
-
-        .logo{
-width: 30%;
-        }
-    }
 
 
 
