@@ -143,7 +143,7 @@
 hr.new5 {
   border-top: 1.5px dotted  rgb(219, 171, 228);
   opacity: 0.5;
-  inline-size: 70%;
+  inline-size: 92%;
 
 
   
@@ -166,13 +166,26 @@ opacity: 0.5;
   position:absolute;
   right: 0;
  background-position: fixed;
-  height: fit-content;
+  height: 600px;
+  width: 100%;
+
+
+  overflow: hidden;
+ 
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
   
 }
 
 .banner-text{
 position:absolute;
-padding-top: 40vw;
+padding-top: 460px;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 100%;
@@ -185,7 +198,7 @@ color: #fff;
 
 
 .box{
-  font-size: 4vw;
+  font-size: 3.5rem;
 font-weight: bold;
 opacity: 0;
 margin: 0;
@@ -250,77 +263,47 @@ animation: ani2 3s infinite;
 
 
 
-.h2tag1{
+.htag{
 
 text-align: center;
 font-size: 45px;
 
-
+color: rgb(172, 86, 221);
 
 }
 .aboutrow{
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 8%;
-  margin-bottom: 5%;
-  
-}
-.aboutrow1{
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 2%;
-  margin-bottom: 1%;
+ margin: 5%;
   
 }
 
 
 
 
-.paratag1{
-  
- text-align: justify;
-padding-right: 2%;
-font-size: 25px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
-}
 
-.paratag2{
-  text-align: justify;
-padding-right: 2%;
-font-size: 25px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
-}
-.htag3{
+.htag1{
   text-align: center;
-  font-size: 110%;
-  font-size: 25px;
+  font-size: 30px;
+  color: rgb(172, 86, 221);
   
 }
-
-.ptag3{
+.ptag{
   text-align: justify;
-  padding-right: 2%;
+ 
   font-size: 25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.h2tag2{
-  
-text-align: center;
-font-size: 45px;
-
-}
 
 
-.col1{
+
+
+/* .col1{
   padding-top: 9%;
   
 }
 .col3{
   text-align: center;
 
-}
+} */
 
 .h2alone{
   justify-items: center;
@@ -382,7 +365,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .scrolling-active .ccta{
   
   padding-left: 15%;
-  border-radius: 5%;
+  
 }
 
 .about12{
