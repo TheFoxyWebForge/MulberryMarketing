@@ -77,7 +77,14 @@
     }
 
 
-
+    @media (max-width: 990px) {
+      .navbar-collapse
+        {
+            background-color:black;
+            padding-left: 15%;
+            padding-bottom: 4%;
+        }
+    }
 
 
 
@@ -107,8 +114,9 @@
 .scrolling-active .navbar-collapse{
   background-color: black;
   padding-left: 15%;
-  border-radius: 5%;
+
 }
+
 
 
 .scrolling-active .nav-link:hover{
