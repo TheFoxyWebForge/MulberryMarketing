@@ -7,7 +7,6 @@ html{
       background-color:black;
       overflow-x: hidden;
  
-    
     }
 
 
@@ -319,6 +318,7 @@ font-style: italic;
   color: rgb(172, 86, 221);
   font-size: 45px;
 font-style: oblique;
+
 }
 #footer{
  
@@ -327,10 +327,12 @@ font-style: oblique;
   text-align: center;
 }
 
+
+
 .social-icon{
   margin: 20px 10px;
   color: #fff;
-
+ 
 }
 
 
