@@ -188,7 +188,7 @@ opacity: 0.5;
 
 .banner-text{
 position:absolute;
-padding-top: 450px;
+padding-top: 500px;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 100%;
@@ -201,7 +201,7 @@ color: #fff;
 
 
 .box{
-  font-size: 3.5rem;
+  font-size: 3rem;
 font-weight: bold;
 opacity: 0;
 margin: 0;
@@ -269,7 +269,7 @@ animation: ani2 3s infinite;
 .htag{
 
 text-align: center;
-font-size: 37px;
+font-size: 35px;
 align-content: center;
 color: rgb(172, 86, 221);
 text-shadow: 0rem 0.1rem #Fff;
@@ -286,15 +286,15 @@ text-shadow: 0rem 0.1rem #Fff;
 
 .htag1{
   text-align: center;
-  font-size: 26px;
+  font-size: 25px;
   color: rgb(172, 86, 221);
   text-shadow: 0rem 0.1rem #Fff;
-  
+  font-style: oblique;
 }
 .ptag{
   text-align: justify;
- 
-  font-size: 22px;
+font-style: italic;
+  font-size: 20px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -318,7 +318,7 @@ text-shadow: 0rem 0.1rem #Fff;
   text-shadow: 0 1px 3rem rgb(250, 246, 252);
   color: rgb(172, 86, 221);
   font-size: 45px;
-
+font-style: oblique;
 }
 #footer{
  
