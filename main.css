@@ -1,9 +1,12 @@
-
+html{
+  overflow-x: hidden;
+}
 
     body{
       font-family: Montserrat;
       background-color:black;
-
+      overflow-x: hidden;
+ 
     
     }
 
@@ -166,7 +169,7 @@ opacity: 0.5;
   position:absolute;
   right: 0;
  background-position: fixed;
-  height: 600px;
+  height: 650px;
   width: 100%;
 
 
@@ -185,7 +188,7 @@ opacity: 0.5;
 
 .banner-text{
 position:absolute;
-padding-top: 460px;
+padding-top: 500px;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 100%;
@@ -266,9 +269,10 @@ animation: ani2 3s infinite;
 .htag{
 
 text-align: center;
-font-size: 45px;
+font-size: 37px;
 align-content: center;
 color: rgb(172, 86, 221);
+text-shadow: 0rem 0.1rem #Fff;
 
 }
 .aboutrow{
@@ -282,14 +286,15 @@ color: rgb(172, 86, 221);
 
 .htag1{
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
   color: rgb(172, 86, 221);
+  text-shadow: 0rem 0.1rem #Fff;
   
 }
 .ptag{
   text-align: justify;
  
-  font-size: 25px;
+  font-size: 22px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -350,6 +355,7 @@ color: rgb(172, 86, 221);
 position: relative;
 font-size:5.5vw;
 color: rgb(172, 86, 221);
+text-shadow: 0rem 0.1rem #Fff;
 
 }
 
