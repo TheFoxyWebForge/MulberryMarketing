@@ -169,7 +169,7 @@ opacity: 0.5;
   position:absolute;
   right: 0;
  background-position: fixed;
-  height: 650px;
+  height: 600px;
   width: 100%;
 
 
@@ -188,7 +188,7 @@ opacity: 0.5;
 
 .banner-text{
 position:absolute;
-padding-top: 500px;
+padding-top: 450px;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 100%;
