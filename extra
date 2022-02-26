@@ -1,0 +1,26 @@
+
+   <div class="row aboutrow" data-aos="fade-up">
+    <div class="col-lg-3 ">
+      <h2 class="htag">Our Vision</h2>
+    </div>
+    <div class="col-lg-9 ">
+<p class="ptag">
+  Our vision is to provide every client with the strategy, creativity, and innovation it needs that would help the business as well as the client’s success. We believe in being honest, fair and delivering excellent results in everything we do.
+</p>
+    </div>
+    
+  </div>
+  <hr class="new5" data-aos="fade-up">
+
+
+  <div class="row aboutrow" data-aos="fade-up">
+    <div class="col-lg-3" >
+      <h2 class="htag" >Our Mission</h2>
+    </div>
+    <div class="col-lg-9 col2">
+      <p class="ptag">Mulberry Studio’s mission is to offer value to clients. By adapting the client’s needs and providing them with all our services suitable for their business. 
+        Our mission is to serve our clients with the best quality work possible. By providing customized services we believe in making every business unique.
+        </p>
+    </div>
+    
+ </div>
