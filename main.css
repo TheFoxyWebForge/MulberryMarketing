@@ -702,7 +702,7 @@ color: rgb(69, 7, 97);
 
 
 hr.new1 {
-  border-top: 1.5px dotted  rgb(219, 171, 228);
+  border-top: 1.5px solid  rgb(219, 171, 228);
   opacity: 0.5;
   inline-size: 94%;
 
