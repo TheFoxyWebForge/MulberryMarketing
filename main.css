@@ -44,7 +44,8 @@ html{
     }
     .navbar-brand{
       font-family: Ubuntu cursive;
-      font-size: 2.0rem;
+      font-size: 0.3rem;
+
       font-weight: bold;
 
     }
@@ -61,7 +62,16 @@ html{
     
    
     }
-
+    /* .logo-text {
+      color: #5d1a94;
+      font-size: 14px;
+      left: 30px;
+      position: absolute;
+      text-decoration: none;
+      top: 35%;
+      font-weight: 700;
+      float: right;
+  } */
 
    
     
@@ -86,6 +96,11 @@ html{
             padding-left: 15%;
             padding-bottom: 4%;
         }
+        /* .logo-text {
+          left: 90px;
+          top: 40%;
+      } */
+  
     }
 
 
@@ -319,6 +334,18 @@ font-style: italic;
   font-size: 45px;
 font-style: oblique;
 
+}
+
+@media (max-width: 990px) {
+  .h2alone{
+    justify-items: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 28px;
+    text-shadow: 0 1px 3rem rgb(250, 246, 252);
+  color: rgb(172, 86, 221);
+  }
 }
 #footer{
  
@@ -803,4 +830,64 @@ hr.new1 {
   display: none;
   overflow: hidden;
   background-color:black;
+}
+
+
+
+
+
+.containerx{
+  background: rgb(0, 0, 0);
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-cardx{
+  /* min-height: 400px;
+  width: 350px; */
+
+  min-height: 400px;
+  width:300px;
+  background-color: rgba(103, 52, 122, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-flow: column;
+  justify-content:space-between;
+ 
+}
+.textx{
+  padding: 2.2em;
+  line-height: 1.3em;
+  position: relative;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.footerx{
+  background: linear-gradient(90deg, #220e44 0%, #500657 100%);
+  height: 140px;
+  border-radius: 0 0 10px 10px;
+  position:relative;
+  
+}
+
+.quotex{
+  font-size: 400%;
+  float: right;
+  opacity: .1;
+  transform: rotate(10deg) translate(-10px, -40px);
+ color:#8e239c;
+}
+
+.personx{
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:1.2rem;
+  font-weight: 600;
 }
