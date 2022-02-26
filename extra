@@ -24,3 +24,147 @@
     </div>
     
  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <section id="testimonials" class="" >
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+     
+    
+      <div class="carousel-inner" >
+        <div class="carousel-item active" >
+          <div class="containerx">
+            <div class="testimonial-cardx">
+              <div class="textx"> Mulberry Studio is by far the most growth-oriented marketing company I've ever worked with. They truly understands your vision and delivers results. 
+                <br>
+                        
+                <i class="fas fa-quote-right quotex"></i>
+              </div>
+           
+              <div class="footerx">
+             
+                 <h3 class="personx"> - Shobhit Naveen <br> <em>Actor/Influencer</em>
+                  </h3>
+                
+                
+              </div>
+            </div>
+          </div>
+      
+              </div>
+
+
+
+
+
+
+              <div class="carousel-item " >
+                <div class="containerx">
+                  <div class="testimonial-cardx">
+                    <div class="textx">5 stars! Mulberry Studio quickly became our creative marketing partner. Their team is organized, efficient, and have great attention to detail. They save me hassle and stress, so I can focus more energy into putting on a great show for our clients. 
+                      <br>
+                              
+                      <i class="fas fa-quote-right quotex"></i></div>
+                  <div class="footerx">
+                   
+                       <h3 class="personx"> - Laxman Singh<br> <em>Owner SRM</em>
+                        </h3>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              
+                    </div>
+                    
+                    
+             
+                    <div class="carousel-item " >
+                      <div class="containerx">
+                        <div class="testimonial-cardx">
+                          <div class="textx">Mulberry studio has a great team to work with. Their creative ideas and marketing strategies are really impressive.
+                            <br>
+                                    
+                            <i class="fas fa-quote-right quotex"></i></div>
+                          
+                          
+                          
+                          <div class="footerx">
+                         
+                             <h3 class="personx"> - Tejas Changede<br> <em>CEO Rovasys Industries</em>
+                              </h3>
+                            
+                            
+                          </div>
+                        </div>
+                      </div>
+                    
+                          </div>
+
+
+
+
+
+
+
+
+                          <div class="carousel-item " >
+                            <div class="containerx">
+                              <div class="testimonial-cardx">
+                                <div class="textx">We developed a great partnership with Mulberry Studio and their dedication towards our company's vision. We appreciate their attention to detail and creative approach to bringing our new exhibit to life online.
+                                  <br>
+                                          
+                                  <i class="fas fa-quote-right quotex"></i></div>
+                                
+                                
+                                
+                                <div class="footerx">
+                               
+                                   <h3 class="personx"> - Chandan Sharma <br> <em>Owner Crishna International</em>
+                                    </h3>
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                                </div>
+
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only" >Next</span>
+      </a>
+    </div>
+    
+    
+    
+      </section>
+    
