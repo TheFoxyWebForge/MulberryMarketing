@@ -231,10 +231,13 @@ color: rgb(240, 231, 247);
 
 
 .b1{
-animation: ani1 3s infinite;
+animation: ani1 5s infinite;
 }
 .b2{
-animation: ani2 3s infinite;
+animation: ani2 5s infinite;
+}
+.b3{
+  animation: ani3 5s infinite;
 }
 
 
@@ -242,27 +245,39 @@ animation: ani2 3s infinite;
 0%{
   opacity: 0;
 }
-25%{
+20%{
   opacity: 1;
 }
-50%{
+35%{
   opacity: 0;
 }
 
 }
 
 @keyframes ani2 {
-50%{
+35%{
   opacity: 0;
 }
-75%{
+50%{
   opacity: 1;
 }
-100%{
+70%{
   opacity: 0;
 }
 
 }
+@keyframes ani3 {
+  70%{
+    opacity: 0;
+  }
+  85%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+  }
 
 
 .aboutus{
